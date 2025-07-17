@@ -1,8 +1,9 @@
 ---
 layout: home
-title: "Amir Aynede"
+title: "Home"
 author_profile: true
 nav_order: 1
+permalink: /
 ---
 
 I’m **Amir Aynede**, a Master’s student in Bioinformatics at the Department of Pharmacy and Biotechnology (FaBiT), Alma Mater Studiorum – University of Bologna, Italy.
