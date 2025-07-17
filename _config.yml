@@ -1,54 +1,23 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: MM
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+title: "Amir Aynede"
+email: "amiraynede.gmail.com"
+description: >-
+  I am Amir Aynede, a Master’s student in Bioinformatics at the Department of Pharmacy and Biotechnology (FaBiT), Alma Mater Studiorum – University of Bologna, Italy. My academic background and research interests lie at the intersection of biology and computation, with a particular focus on: Computational Biology and Structural Bioinformatics, Cancer Clinical Data Bioinformatics, and Machine Learning Applications in Diseases. My work integrates data science, biological insights, and modern AI to explore complex biomedical problems, especially in the context of cancer research. You can explore a collection of my recent and ongoing projects on my GitHub page, each accompanied by detailed documentation to ensure full reproducibility. You can find all the detailed steps on my GitHub repository, including code, notebooks, reports, and automated workflows. One of my most recent and comprehensive works is a machine learning pipeline for cancer classification using histopathological images from the LC25000 dataset. The goal of this project was to automate cancer subtype classification using deep learning—addressing limitations of manual histopathology such as subjectivity and variability across human observers. The pipeline encompasses all stages of a modern AI project: data preprocessing, training a fine-tuned ResNet18 model, model evaluation using metrics like accuracy, precision, recall, and F1-score, as well as interpretability techniques such as Grad-CAM visualizations to highlight decision-relevant image regions. This project not only demonstrates the technical steps for building reproducible ML pipelines but also reflects my commitment to transparent, accessible research in biomedical informatics.
+twitter_username: ""
+github_username: AmirAynede
 minimal_mistakes_skin: default
 search: true
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-# Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Rome
 
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -58,37 +27,33 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Amir Aynede"
+  avatar : "/assets/images/IMG.jpg"
+  bio    : "Master's student in Bioinformatics | University of Bologna | Interested in Computational Biology & ML in Cancer Research"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/AmirAynede"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/amir-aynede-b76840169/"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0009-0009-0550-4615"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/AmirAynede"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/amir-aynede-b76840169/"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0009-0009-0550-4615"
 
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -96,10 +61,10 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
-  # _pages
+
   - scope:
       path: "_pages"
       type: pages
@@ -110,6 +75,7 @@ defaults:
 category_archive:
   type: liquid
   path: /categories/
+
 tag_archive:
   type: liquid
   path: /tags/
