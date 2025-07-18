@@ -5,10 +5,8 @@
   <h3>{{ author.name }}</h3>
   <p style="margin: 0;">Master’s student in Bioinformatics</p>
   <p style="margin: 0;">University of Bologna</p>
-  <p style="margin: 0;">Computational Biology, AI in Cancer</p>
 </div>
-
-<ul class="author__urls social-icons">
+<ul class="author__urls social-icons" style="justify-content: center;">
   {% if author.links %}
     {% for link in author.links %}
       <li><a href="{{ link.url }}"><i class="{{ link.icon }}"></i> {{ link.label }}</a></li>
