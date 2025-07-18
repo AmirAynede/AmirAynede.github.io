@@ -91,3 +91,15 @@ nav:
     url: /cv/
   - title: "Contact"
     url: /contact/
+
+# Custom styles override
+sass:
+  style: compressed
+
+# Add custom stylesheet
+defaults:
+  - scope:
+      path: "assets/css"
+      type: "scss"
+    values:
+      permalink: /assets/css/:basename:output_ext
