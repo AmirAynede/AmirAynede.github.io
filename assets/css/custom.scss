@@ -1,5 +1,5 @@
 /* Make avatar larger and circular */
-.author__avatar {
+.author__avatar img {
   width: 140px !important;
   height: 140px !important;
   border-radius: 50% !important;
@@ -9,6 +9,13 @@
 .author__bio {
   display: block !important;
   text-align: left;
+}
+
+.author__bio {
+  display: block !important;
+  text-align: left;
+  line-height: 1.4;
+  margin-top: 0.5rem;
 }
 
 .author__bio p {
