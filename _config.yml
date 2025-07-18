@@ -29,7 +29,10 @@ plugins:
 author:
   name   : "Amir Aynede"
   avatar : "/assets/images/IMG.jpg"
-  bio    : "Master's student in Bioinformatics | University of Bologna | Interested in Computational Biology & ML in Cancer Research"
+  bio: >
+  Master’s student in Bioinformatics  
+  University of Bologna  
+  Focused on AI in Cancer Research
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
