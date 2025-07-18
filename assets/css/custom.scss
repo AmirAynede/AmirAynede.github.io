@@ -1,16 +1,12 @@
-/* Make avatar larger and circular */
+/* Make avatar image larger and round */
 .author__avatar img {
   width: 140px !important;
   height: 140px !important;
   border-radius: 50% !important;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4); /* Optional */
 }
 
-/* Display bio summary in vertical block style */
-.author__bio {
-  display: block !important;
-  text-align: left;
-}
-
+/* Bio layout adjustments */
 .author__bio {
   display: block !important;
   text-align: left;
@@ -21,4 +17,3 @@
 .author__bio p {
   margin-bottom: 0.5em;
 }
-
