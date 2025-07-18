@@ -5,16 +5,6 @@ nav_order: 1
 permalink: /
 ---
 
-<div style="text-align: center; margin-bottom: 1rem;">
-  <img src="/assets/images/IMG.jpg"
-       alt="Amir Aynede"
-       style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; box-shadow: 0 0 10px rgba(0,0,0,0.4); margin-bottom: 10px;">
-  <h3>Amir Aynede</h3>
-  <p style="margin: 0;">Master’s student in Bioinformatics</p>
-  <p style="margin: 0;">University of Bologna</p>
-  <p style="margin: 0;">Computational Biology, AI in Cancer</p>
-</div>
-
 I’m **Amir Aynede**, a Master’s student in Bioinformatics at the Department of Pharmacy and Biotechnology (FaBiT), Alma Mater Studiorum – University of Bologna, Italy.
 
 My academic background and research interests lie at the intersection of biology and computation, with a particular focus on:
