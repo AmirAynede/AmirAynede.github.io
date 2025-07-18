@@ -1,6 +1,7 @@
 ---
 layout: home
 title: "Home"
+author_profile: true
 nav_order: 1
 permalink: /
 ---
