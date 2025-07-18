@@ -1,0 +1,17 @@
+/* Make avatar larger and circular */
+.author__avatar {
+  width: 140px !important;
+  height: 140px !important;
+  border-radius: 50% !important;
+}
+
+/* Display bio summary in vertical block style */
+.author__bio {
+  display: block !important;
+  text-align: left;
+}
+
+.author__bio p {
+  margin-bottom: 0.5em;
+}
+
