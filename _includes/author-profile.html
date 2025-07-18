@@ -1,0 +1,30 @@
+<div class="author__avatar" style="text-align: center;">
+  {% if author.avatar %}
+    <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}" style="border-radius: 50%; width: 140px; height: 140px;">
+  {% endif %}
+</div>
+
+<div class="author__content" style="text-align: center; margin-top: 1em;">
+  {% if author.name %}
+    <h3 class="author__name">{{ author.name }}</h3>
+  {% endif %}
+
+  {% if author.bio %}
+    <p class="author__bio" style="line-height: 1.5; font-size: 1em;">{{ author.bio }}</p>
+  {% endif %}
+
+  {% if author.links %}
+    <ul class="author__urls social-icons" style="justify-content: center;">
+      {% for link in author.links %}
+        <li>
+          <a href="{{ link.url }}">
+            {% if link.icon %}
+              <i class="{{ link.icon }}"></i>
+            {% endif %}
+            {{ link.label }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>
